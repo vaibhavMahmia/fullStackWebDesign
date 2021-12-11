@@ -16,7 +16,7 @@ form.addEventListener('submit', function(event) {
         var result = x / y;
         var percent = result * 100;
 
-        resultField.innerText = "Answer: " + percent + "%";  
+        resultField.innerHTML = "Answer: " + percent + "%";  
         event.preventDefault(); // Dont refresh the page otherwise by clicking submit button the page will be refreshed      
     }
     

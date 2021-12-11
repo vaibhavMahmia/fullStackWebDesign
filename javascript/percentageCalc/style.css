@@ -38,9 +38,9 @@ h1 {
 }
 
 .textInput {
-    background-color: rgb(255, 136, 0);
-    color: rgb(0, 0, 0);
-    border: none;
+    background-color: rgb(1, 54, 38);
+    color: rgb(248, 225, 97);
+    border: solid 3px rgb(248, 225, 97);
     padding: 10px;
     border-radius: 20px;
 }
