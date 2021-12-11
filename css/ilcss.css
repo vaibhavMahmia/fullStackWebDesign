@@ -1,0 +1,84 @@
+body {/*
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+background-color: rgb(122, 191, 255);
+}
+
+.container {
+    background: -moz-linear-gradient(rgb(5, 124, 98), rgb(153, 255, 238));
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 3px 5px 3px rgb(0, 136, 125);
+    
+}
+
+h1 {
+    color: rgb(6, 21, 107);
+    text-shadow: 2px 2px 5px rgb(69, 31, 241);
+}
+
+h2 {
+    color: aquamarine;
+    text-shadow: 1px 1px 3px black;
+    font-style: italic;
+}
+
+.borderImg {
+   /* border: 10px dashed red; */
+    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 5px 3px white;
+}
+
+ul li {
+    color: rgb(2, 116, 216);
+    font-size: 20px;
+}
+
+ul > li {
+    color: rgb(0, 134, 134);
+}
+
+h3, h4 {
+    text-align: center;
+    text-decoration: dotted;
+    color: aqua;
+    text-shadow: 2px 2px 5px aquamarine;
+    background-color: rgb(6, 21, 107);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.borderImg:hover {
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+#person {
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(23, 11, 184);
+    word-spacing: 10px;
+    
+}
+
+#person:hover {
+    border: 2px blue solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(40, 0, 87);
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    padding: 5px;
+}

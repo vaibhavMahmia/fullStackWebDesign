@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CSS WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">News</a></li>
+            <li><a href="#home">Contact</a></li>
+            <li><a href="#home">About</a></li>
+            <li class="topnav-right"><a href="#home">Sign Up</a></li>
+            <li class="topnav-right"><a href="#home">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col"> 
+                    <h1 class="large">AEW</h1>
+                    <h1 class="large">MADE FOR WRESTLERS</h1>
+                </div>
+                <form action="#" method="get">
+                    <div class="leftside-col">
+                        <h2>USERNAME</h2>
+                        <input class="inputbox" name="username" type="text" placeholder="username">
+                        <h2>PASSWORD</h2>
+                        <input class="inputbox" name="password" type="password" placeholder="password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KrZXDqREmaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>  
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header><h1 class="section2Header">The Header</h1></header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img height="200" width="300" src="pentagon.png" alt="">
+                    </div>
+                    <label>CHAT WITH ME</label>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut est porta, placerat sapien a, eleifend urna. Duis auctor consectetur commodo. Cras tempor dolor id quam vehicula, luctus maximus odio dignissim.  </p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img height="200" width="300" src="pentagon.png" alt="">
+                    </div>
+                    <label>CHAT WITH ME</label>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut est porta, placerat sapien a, eleifend urna. Duis auctor consectetur commodo. Cras tempor dolor id quam vehicula, luctus maximus odio dignissim.  </p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img height="200" width="300" src="pentagon.png" alt="">
+                    </div>
+                    <label>CHAT WITH ME</label>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut est porta, placerat sapien a, eleifend urna. Duis auctor consectetur commodo. Cras tempor dolor id quam vehicula, luctus maximus odio dignissim.  </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                    <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut est porta, placerat sapien a, eleifend urna. Duis auctor consectetur commodo. Cras tempor dolor id quam vehicula, luctus maximus odio dignissim. 
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut est porta, placerat sapien a, eleifend urna. Duis auctor consectetur commodo. Cras tempor dolor id quam vehicula, luctus maximus odio dignissim. 
+    
+                    </p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="ikon"> 
+                    <img src="pentagon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mob">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Carrers</li>
+                </ul>
+            </div>
+            <div class="col-3 mob">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Carrers</li>
+                </ul>
+            </div>
+            <div class="col-3 mob">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Carrers</li>
+                </ul>
+            </div>
+            <div class="col-3 mob">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Carrers</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick")
+            if(x.className === "topnav"){
+                x.className += " responsive"
+            }
+            else {
+                x.className = "topnav"
+            }
+        }
+    </script>
+</body>
+</html>

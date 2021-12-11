@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(0, 47, 255);
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    margin: auto;
+}
+
+#circle {
+    margin: auto;
+    color: black;
+    font-size: 40px;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    padding: 50px;
+    text-align: center;
+}
