@@ -1,9 +1,50 @@
 .container {
     text-align: center;
-    background-color: blue;
-    color: rgb(97, 225, 248);
+    background-color: rgb(1, 54, 38);
+    color: rgb(248, 225, 97);
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 120px;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: rgb(225, 248, 97);
+    color: rgb(1, 54, 38);
+}
+
+.butn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
+
+.butn:hover {
+    color: green;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+
+.textInput {
+    background-color: rgb(255, 136, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+body {
+    background: -moz-radial-gradient(rgb(240, 236, 28), rgb(4, 170, 40));
 }
