@@ -1,5 +1,5 @@
 body.signin-body {
-    background-color: #e6f2ff;
+    background-color: #05010c;
 }
 
 .container.signin-container {
@@ -8,6 +8,38 @@ body.signin-body {
 
 .card.signin-card {
     padding: 40px 0px 20px;
-    background-color: #f4f4f4;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    background-color: #073b33;
+    box-shadow: 2px 2px 15px rgba(211, 102, 13, 0.5);
+}
+.card-block{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+img.signin-img {
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+button.signin-btn {
+    color: white;
+    background-color: rgb(214, 140, 2);
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+label.remember {
+    color: aliceblue;
+}
+
+.newAccount {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
 }
