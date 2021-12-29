@@ -6,3 +6,101 @@
 .carousel-caption {
     color: rgb(255, 252, 59);
 }
+
+.sectionLight {
+    background-color: rgb(125, 255, 233);
+    padding: 2em;
+}
+
+.sectionDark {
+    background-color: #004242;
+    padding: 2em;
+}
+
+.fonT {
+    color: whitesmoke;
+}
+
+.cSW {
+    margin-top: 20px;
+}
+
+.coolBtn {
+    background-color: red;
+    color: aliceblue;
+    display: block;
+    margin: auto;
+}
+
+h5.modal-title{
+    margin: auto;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+}
+
+.btnCenter{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.modal-body {
+    background-color: rgb(227, 255, 250);
+    color: #004242;
+
+}
+
+.modal-header {
+    background-color: #004242;
+    color: rgb(227, 255, 250);
+}
+
+.modal-footer {
+    background-color: #004242;
+    color: rgb(227, 255, 250);
+}
+
+.btn-close {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-close:hover {
+    background-color: rgb(255, 0, 43);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer-img {
+    padding: 10px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: rgb(95, 169, 253);
+}
+
+.fa-google-plus-square {
+    color: rgb(255, 62, 62);
+}
+
+.fa-instagram {
+    color: rgb(243, 69, 98);
+}
+
+.socialWrapper {
+    margin: auto;
+}
