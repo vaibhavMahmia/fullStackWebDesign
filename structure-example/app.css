@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: #eee;
+  font-family: Georgia, Times, serif; }
+
+#main-content {
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #eee; }
+
+#header {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #008975; }
+  #header h1 {
+    margin: 0;
+    padding: 10px 0; }
+
+.btn-large {
+  padding: 30px 40px;
+  background-color: #097442;
+  color: white; }
+
+.btn-sm {
+  padding: 10px 15px;
+  background-color: #009272;
+  color: black; }
+
+#main-nav {
+  background-color: #00aa8d;
+  width: 100%;
+  display: block;
+  padding: 10px 0 40px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul li {
+    float: left;
+    margin-left: 30px; }
+    ul li a {
+      text-decoration: none;
+      font-size: 22px;
+      color: #eee; }
+      ul li a:hover {
+        color: red; }
+
+.pro-img {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 15px #555;
+  -moz-box-shadow: 0 0 15px #555;
+  box-shadow: 0 0 15px #555;
+  border: 1px solid #00aa8d;
+  background-color: #00aa8d;
+  width: 22%;
+  height: 50px;
+  display: inline-block;
+  float: left;
+  margin: 15px; }
+
+/*# sourceMappingURL=app.css.map */
